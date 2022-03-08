@@ -27,14 +27,14 @@ section {
     margin-bottom: 0;
 }
 
-.phone h3 {
-    text-align: center;
-    margin-bottom: 30px;
+.phone-header span {
+    color: #FFB746;
+    font-weight: 400;
 }
 
 .card {
     border: none;
-    box-shadow: 2px 4px 9px -1px rgba(0, 0, 0, 0.47);
+    box-shadow: 1px 2px 26px -7px rgba(0, 0, 0, 0.54);
     border-radius: 10px;
     padding: 60px;
     height: 540px;
@@ -47,4 +47,88 @@ section {
 .card-detail img {
     height: 200px;
     width: 150px;
+}
+
+.categories h3 {
+    text-align: center !important;
+}
+
+.categories .bag {
+    box-shadow: 1px 2px 26px -7px rgba(0, 0, 0, 0.54);
+    width: 250px;
+    height: 250px;
+    font-size: 20px;
+    border-radius: 2px 30px;
+    margin-left: 100px;
+    margin-top: 50%;
+}
+
+.categories .bag img {
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.bag h4 {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.categories .perfume {
+    box-shadow: 1px 2px 26px -7px rgba(0, 0, 0, 0.54);
+    width: 250px;
+    height: 250px;
+    font-size: 20px;
+    border-radius: 2px 30px;
+    margin-left: 20px;
+}
+
+.categories .perfume img {
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.perfume h4 {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.categories .shoe {
+    box-shadow: 1px 2px 26px -7px rgba(0, 0, 0, 0.54);
+    width: 250px;
+    height: 250px;
+    font-size: 20px;
+    border-radius: 2px 30px;
+    margin-left: 20px;
+    margin-top: 20%;
+}
+
+.categories .shoe img {
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.shoe h4 {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.categories .pale-order {
+    margin-left: -100px;
+}
+
+.pale-order img {
+    height: 540px;
+    width: 560px;
 }
