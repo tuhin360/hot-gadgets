@@ -1,0 +1,50 @@
+.nav-list a {
+    font-weight: 600;
+}
+
+section {
+    margin-bottom: 100px;
+}
+
+.buy-now-button {
+    background-image: linear-gradient(to bottom, #000000 0%, #130007 100%);
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 9px 30px;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+.bg-img {
+    display: flex;
+}
+
+.bg-img.bg-left {
+    height: 800px;
+    width: 50px;
+    margin-top: 30px;
+    margin-bottom: 0;
+}
+
+.phone h3 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.card {
+    border: none;
+    box-shadow: 2px 4px 9px -1px rgba(0, 0, 0, 0.47);
+    border-radius: 10px;
+    padding: 60px;
+    height: 540px;
+}
+
+.card-detail {
+    text-align: center;
+}
+
+.card-detail img {
+    height: 200px;
+    width: 150px;
+}
